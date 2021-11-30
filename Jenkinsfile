@@ -18,7 +18,7 @@ pipeline {
 			parallel {
 				stage('Test on Agent') {
 					agent{
-						label "AWS_instance_Node"
+						label "AWS_Instance_Node"
 					}
 					steps {
 						echo "Task1 on Agent";
